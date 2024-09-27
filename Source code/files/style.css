@@ -1,0 +1,81 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333;
+    /* background-color: #051340; */
+    background-color: #000000;
+    
+    
+}
+
+
+.body {
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    border-radius: 2px;
+    
+
+    .content {
+        width: max-content;
+        border-radius: 8px;
+
+        .title {
+            margin: 3px;
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 20px;
+            font-family:'Prompt', sans-serif;
+            margin-bottom: 17px;
+            margin-left: -3px;
+        }
+        .title2 {
+            margin: 3px;
+            color: #b6b6b6;
+            font-size: 9px;
+            font-family:'Prompt', sans-serif;
+            margin-bottom: -3px;
+            
+        }
+
+        #originName {
+            margin-top: 0;
+            /* font-weight: 10; */
+            color: #000000;
+            font-size: 0.1px;
+
+        }
+    }
+}
+
+.action {
+    margin-top: 20px;
+
+    .button {
+        display: inline-block;
+        padding: 10px 25px;
+        border: none;
+        background-color: #004ea5;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 550;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 10px;
+        font-family: 'prompt', sans-serif;
+        font-weight: 100px;
+      }
+      
+    .button:hover {
+    background-color: #505050;
+    }
+    
+    
+    
+}
+
+.small-image {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -8px;
+   
+}
